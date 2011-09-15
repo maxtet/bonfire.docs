@@ -1,0 +1,208 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    text-align: justify;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h2 {
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #31576F;
+}
+
+h2 em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    height: 25px;
+    background: #0077A7 url(images/img3.gif) repeat-x left bottom;
+    padding: 13px 0 0 12px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+p, ol, ul {
+    line-height: 180%;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a {
+    color: #6B6B6B;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.image {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.bg1 {
+    padding: 0 20px 20px 20px;
+    border-top: 1px solid #FFFFFF;
+    background: #FFFFFF url(images/img4.gif) repeat-x;
+}
+
+.bg2 {
+    padding: 20px;
+    border-top: 1px solid #CBE1EF;
+    background: #FFFFFF url(images/img4.gif) repeat-x;
+}
+
+/* Header */
+
+#header {
+    width: 100%;
+    height: 120px;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#header * {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+#header div {
+    width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#header div h1 {
+    font-size: 48px;
+}
+
+#header div h2 {
+    
+}
+
+#header ul {
+    float: right;
+    margin: 0;
+    padding: 82px 0 0 0;
+    list-style: none;
+}
+
+#header li {
+    display: inline;
+}
+
+#header a {
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 0 0 0 8px;
+    padding: 12px 20px 0 20px;
+    background: #ABBA47 url(images/img2.gif) repeat-x;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content */
+
+pre {
+    font-family: courier;
+    font-size: 10px;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#colOne {
+    float: left;
+    width: 220px;
+}
+
+#colOne ul {
+    padding-left: 0;
+    list-style: none none outside;
+}
+
+#colOne li {
+    padding: 5px 0;
+    background: url(images/img6.gif) repeat-x;
+}
+
+#colOne li.first {
+    background: none;
+}
+
+#colTwo {
+    float: right;
+    width: 730px;
+}
+
+#colTwo p, ul, ol, td {
+    font-size: 120%;
+}
+
+#colTwo ul {
+    
+}
+
+.bg1 table {
+    padding: 5px; 
+    border: 1px solid #cccccc; 
+    background: #F6F6F6; 
+    width: 95%; 
+    margin: 8px auto
+}
+
+.bg1 td {
+    vertical-align: top;
+    padding: 6px;
+    font-size: 120%;
+}
+
+td.right_td {
+    width: 30%;
+    font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: url(images/img7.gif) repeat-x
+}
+
+#footer p {
+    margin: 0;
+    text-align: center;
+    text-transform: lowercase;
+}
